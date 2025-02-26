@@ -1,0 +1,10 @@
+frontend/node_modules/
+frontend/.env
+frontend/public/image/groups/*
+frontend/public/image/products/*
+frontend/public/pdfspec/*
+
+backend/node_modules/
+backend/.env
+
+node_modules/
