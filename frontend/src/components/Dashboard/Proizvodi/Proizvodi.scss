@@ -1,0 +1,33 @@
+.dash-proizvodi {
+  padding: 0;
+  background-color: white;
+
+  & table {
+    // padding-top: 70px;
+
+    & tr {
+      // align-items: baseline;
+    }
+
+    & td {
+      word-wrap: break-word;
+    }
+  }
+}
+
+.proizvodi-pretraga {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: white;
+}
+
+.btn-update-proizvoda {
+  cursor: pointer;
+}
+
+#edit-proizvoda {
+  width: 90vw;
+  // height: 90vh;
+}

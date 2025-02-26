@@ -1,0 +1,18 @@
+.modal-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.edit-proizvoda {
+  display: flex;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  gap: 20px 10px;
+  padding: 20px;
+  background-color: rgb(242, 242, 245);
+}
+
+.update-button-container {
+  width: 100%;
+  text-align: right;
+}

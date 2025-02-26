@@ -1,0 +1,61 @@
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+}
+.card-registration .select-arrow {
+  top: 13px;
+}
+
+.spy {
+  position: relative;
+  top: -30px;
+  right: 10px;
+  float: right;
+  cursor: pointer;
+}
+
+.grupa {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  background-color: #f8f9fa;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.fizicko-pravno {
+  display: flex;
+  gap: 30px;
+  padding: 0 0 25px 0;
+}
+
+.dodaj-adresu {
+  display: flex;
+  justify-content: center;
+
+  & i {
+    color: white;
+  }
+}
+
+.form-check {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 30px 20px;
+}
+
+.napravi-nalog {
+  display: flex;
+  justify-content: center;
+}
+
+#kbs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

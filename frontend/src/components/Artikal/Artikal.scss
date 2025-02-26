@@ -1,0 +1,19 @@
+.product-data {
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+  margin-top: 20px;
+  align-items: baseline;
+}
+
+.pdf i {
+  color: red;
+}
+
+.spec {
+  display: block;
+
+  & li {
+    list-style-type: disc;
+  }
+}

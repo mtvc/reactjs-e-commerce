@@ -1,0 +1,35 @@
+.kasa-container {
+  margin: 80px 10px 0 10px;
+}
+
+.cart {
+  overflow-x: auto;
+  min-height: 80vh;
+}
+
+.table {
+  margin-bottom: 50px;
+}
+
+.total-cena {
+  display: grid;
+  grid-template-columns: auto auto;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #f8f9fa;
+  padding: 15px;
+  width: 100%;
+  z-index: 2;
+}
+
+.cena-kasa {
+  display: flex;
+  flex-direction: column;
+}
+
+.poruci-buton {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

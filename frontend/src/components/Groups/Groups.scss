@@ -1,0 +1,16 @@
+.grupe-proizvodi {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: inline-block;
+  width: 15rem;
+  padding: 5px;
+  margin: 5px;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: bold;
+}

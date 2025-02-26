@@ -1,0 +1,47 @@
+.filteri {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  min-height: 100px;
+
+  margin-bottom: 10px;
+  padding: 10px 0;
+  //   overflow-x: scroll;
+}
+
+.filter-grupa,
+.filter-sub-grupa,
+.filter-grupa-child {
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: normal;
+  height: auto;
+  padding: 10px;
+  //   background-color: yellow;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin: 5px;
+
+  & h6 {
+    font-weight: 700;
+  }
+
+  & h6,
+  h7 {
+    cursor: pointer;
+  }
+
+  & h6:hover,
+  h7:hover {
+    text-decoration: underline;
+  }
+}
+
+.filter-item {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 5px;
+  justify-content: center;
+}

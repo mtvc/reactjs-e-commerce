@@ -1,0 +1,19 @@
+#uslovi {
+  height: 90vh;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-y: scroll;
+  background-color: white;
+  position: relative;
+}
+
+.close-wraper {
+  width: 100%;
+  text-align: right;
+
+  & .close-btn {
+    font-size: 25px;
+    color: red;
+    cursor: pointer;
+  }
+}

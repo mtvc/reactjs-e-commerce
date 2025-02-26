@@ -1,0 +1,15 @@
+.korpa {
+  margin: 1rem 2rem 2rem 2rem;
+  padding: 2rem;
+  border: 1px solid rgb(165, 164, 164);
+  border-radius: 10px;
+  min-height: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: #f8f9fa;
+
+  & button i {
+    color: white;
+  }
+}

@@ -1,0 +1,97 @@
+.hide {
+  display: none;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.right-container {
+  /* background-color: antiquewhite; */
+  float: right;
+  position: fixed;
+  top: 70px;
+  right: 0;
+  height: 95vh;
+  width: 20rem;
+}
+
+.artikal {
+  margin-right: 20rem;
+}
+
+.top-nivo {
+  color: orangered;
+  font-weight: bold;
+  list-style: none;
+}
+ul {
+  padding-left: 0.7rem;
+}
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:active {
+  color: #73b713;
+}
+
+.active {
+  color: #73b713;
+  text-decoration: underline;
+  list-style: circle;
+  border-left: 2px solid #73b713;
+  padding-left: 5px;
+  margin-left: -7px;
+}
+
+hr {
+  margin: 5px 0;
+}
+
+.cart tr {
+  vertical-align: baseline !important;
+}
+
+h1 {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.03cap;
+}
+h2 {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.03cap;
+}
+
+.cena {
+  display: flex;
+  vertical-align: center;
+  align-items: center;
+}
+
+.limegreen-btn {
+  background-color: #73b713;
+
+  & :hover {
+    border: 1px solid #73b713;
+  }
+
+  & :click {
+    border: 1px solid #73b713;
+  }
+}

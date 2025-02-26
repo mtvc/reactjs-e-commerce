@@ -1,0 +1,17 @@
+.dostava {
+  padding: 0 0 2rem 2rem;
+  margin: 0 2rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dostava-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dostava-icon {
+  font-size: 2rem;
+}

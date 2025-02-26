@@ -1,0 +1,19 @@
+.adresa-wrap {
+  margin: 20px 0;
+}
+
+.delAdress {
+  position: relative;
+  top: 35px;
+  cursor: pointer;
+}
+
+.obrisi-adresu {
+  display: flex;
+  justify-content: center;
+
+  & i {
+    justify-content: center;
+    align-items: center;
+  }
+}

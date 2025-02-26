@@ -1,0 +1,52 @@
+#search-bar {
+  justify-self: center;
+  width: 30vw;
+  height: 35px;
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 10px;
+  border-radius: 5px 0 0 5px;
+
+  &:focus {
+  }
+}
+
+form {
+  display: flex;
+  width: 100%;
+}
+
+.pretraga {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & button {
+    height: 35px;
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+}
+
+.mobil-search {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 67px;
+  padding: 8px 5px;
+  background-color: black;
+  z-index: 150;
+
+  & button {
+    display: flex;
+    gap: 5px;
+    height: 35px;
+    border-radius: 0 5px 5px 0;
+    white-space: nowrap;
+  }
+}

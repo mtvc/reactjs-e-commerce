@@ -1,0 +1,49 @@
+.home-container {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+  white-space: nowrap;
+  position: relative;
+  // overflow-y: hidden;
+}
+
+.naslov-grupe-home {
+  text-align: center;
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+
+.produkti {
+  display: flex;
+  flex-wrap: nowrap;
+
+  & .card {
+    flex-shrink: 0;
+  }
+
+  & .card-title {
+    white-space: wrap;
+  }
+}
+
+.kablovi-home,
+.konektori-home,
+.terminisani-kablovi-home {
+  flex: auto;
+  overflow-x: auto;
+
+  &::-webkit-scrollbar {
+    height: 0;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #eee;
+    border-radius: 4px;
+  }
+}
