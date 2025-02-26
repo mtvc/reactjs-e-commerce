@@ -8,6 +8,10 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+.env
+public/image/groups/*
+public/image/products/*
+public/pdfspec/*
 dist
 dist-ssr
 *.local
